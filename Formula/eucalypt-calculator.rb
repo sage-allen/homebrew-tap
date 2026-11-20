@@ -1,25 +1,25 @@
 class EucalyptCalculator < Formula
   desc "A full-screen scientific calculator for the terminal"
   homepage "https://github.com/sage-allen/eucalypt-calculator"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/sage-allen/eucalypt-calculator/releases/download/v0.1.0/eucalypt-calculator-aarch64-apple-darwin.tar.xz"
-      sha256 "82573e62e1d48105fb577c359fc98a82598b05685f567603a37984aa0a9af705"
+      url "https://github.com/sage-allen/eucalypt-calculator/releases/download/v0.2.0/eucalypt-calculator-aarch64-apple-darwin.tar.xz"
+      sha256 "e847f873b46e102c4faadee6fa9e1b05e376bd50f50b54f2d9a923a8f505a988"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/sage-allen/eucalypt-calculator/releases/download/v0.1.0/eucalypt-calculator-x86_64-apple-darwin.tar.xz"
-      sha256 "e80415dc98f368307288a2283ff27f8ba275f4001357a2c46d73493ac0b24b56"
+      url "https://github.com/sage-allen/eucalypt-calculator/releases/download/v0.2.0/eucalypt-calculator-x86_64-apple-darwin.tar.xz"
+      sha256 "64e737ffb487a7c5599b31d4ca1d932dfe52c97f0928dd54748595553e27b756"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/sage-allen/eucalypt-calculator/releases/download/v0.1.0/eucalypt-calculator-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "9f6140078cdeebc064d2cc366e366d172a9fa5527028a51f2d941637dcc6efcd"
+      url "https://github.com/sage-allen/eucalypt-calculator/releases/download/v0.2.0/eucalypt-calculator-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "eb22ec6c3728d27b01127543d5cdce17c0bef3df55751539c729a641bb06502b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/sage-allen/eucalypt-calculator/releases/download/v0.1.0/eucalypt-calculator-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "44b860442cc61696af0c77e580cd20f14e684e81ac43157838593bb40e22439b"
+      url "https://github.com/sage-allen/eucalypt-calculator/releases/download/v0.2.0/eucalypt-calculator-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "6a857cd31bee639e9f0ff01960327503c45009acc59393ae55cb2aca931b8c19"
     end
   end
   license "MIT"
